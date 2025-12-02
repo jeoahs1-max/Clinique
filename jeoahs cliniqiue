@@ -1,0 +1,36 @@
+jeoahs-emr/
+│
+├─ README.md
+├─ .gitignore
+├─ docker-compose.yml
+│
+├─ frontend/
+│  ├─ package.json
+│  ├─ public/
+│  │  └─ index.html
+│  └─ src/
+│     ├─ index.js
+│     ├─ App.js
+│     └─ i18n.js
+│
+├─ backend/
+│  ├─ package.json
+│  └─ index.js
+│
+├─ device_bridge/
+│  ├─ package.json
+│  └─ index.js
+│
+├─ firebase/
+│  ├─ firebase.json
+│  └─ functions/
+│     ├─ package.json
+│     └─ index.js
+│
+└─ assets/
+   ├─ prototype.html
+   ├─ technical_spec.md
+   └─ locales/
+      ├─ fr.json
+      ├─ en.json
+      └─ ht.json
